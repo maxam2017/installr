@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "installScript": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "An array of shell commands to execute during installation."
+            },
+            "minItems": 1,
+            "description": "Required field: Specifies the installation commands."
+          },
+          "beforeInstall": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Optional array of shell commands to execute before installation."
+            }
+          },
+          "afterInstall": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Optional array of shell commands to execute after installation."
+            }
+          }
+        },
+        "required": ["name", "installScript"]
+      }
+    }
+  },
+  "required": ["packages"]
+}
