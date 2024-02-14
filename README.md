@@ -1,4 +1,9 @@
-# installr
+# installr 📦
+
+[![GitHub Release](https://img.shields.io/github/release/maxam2017/installr.svg)](https://github.com/maxam2017/installr/releases)
+[![CI](https://github.com/maxam2017/installr/actions/workflows/ci.yml/badge.svg)](https://github.com/maxam2017/installr/actions/workflows/ci.yml)
+[![Language](https://img.shields.io/badge/language-typescript-blue?style)]()
+[![Lincense](https://img.shields.io/github/license/maxam2017/productive-box)]()
 
 installr is a performant package installation tool designed to simplify the process of managing and installing packages while automatically resolving dependencies.
 
