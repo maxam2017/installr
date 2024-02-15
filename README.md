@@ -1,9 +1,17 @@
-# installr 📦
+<p align="center">
+  <h1 align="center">> installr</h1>
+  <p align="center">
+    <img src="https://github.com/maxam2017/installr/assets/25841814/1c1c0f3b-edf1-4673-a2d0-981b260d9249" alt="installr logo" width="200">
+  </p>
+</p>
 
-[![GitHub Release](https://img.shields.io/github/release/maxam2017/installr.svg)](https://github.com/maxam2017/installr/releases)
-[![CI](https://github.com/maxam2017/installr/actions/workflows/ci.yml/badge.svg)](https://github.com/maxam2017/installr/actions/workflows/ci.yml)
-[![Language](https://img.shields.io/badge/language-typescript-blue?style)]()
-[![Lincense](https://img.shields.io/github/license/maxam2017/productive-box)]()
+<p align="center">
+  <a href="https://github.com/maxam2017/installr/releases"><img src="https://img.shields.io/github/release/maxam2017/installr.svg" alt="GitHub Release"></a>
+  <a href="https://github.com/maxam2017/installr/actions/workflows/ci.yml"><img src="https://github.com/maxam2017/installr/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href=""><img src="https://img.shields.io/badge/language-typescript-blue?style" alt="Language"></a>
+  <a href=""><img src="https://img.shields.io/github/license/maxam2017/productive-box" alt="Lincense"></a>
+</p>
+
 
 installr is a performant package installation tool designed to simplify the process of managing and installing packages while automatically resolving dependencies.
 
